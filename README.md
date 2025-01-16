@@ -1,6 +1,7 @@
 # Mobile Management System
 
 A secure C++ implementation of a mobile phone management system with password protection and balance tracking capabilities.
+A Mobile Management System where the user sets up a phone, locks/unlocks it with a password, checks phone info, performs a recharge, and makes calls.
 
 ## 🚀 Features
 
@@ -38,12 +39,12 @@ cd Mobile-Management-System-CPP
 
 2. Compile the project
 ```bash
-g++ -o mobile main.cpp Mobile.cpp
+g++ -o mobile mobile_management.cpp
 ```
 
 3. Run the program
 ```bash
-./mobile
+./mobile_management
 ```
 
 ## 💻 Usage
@@ -53,7 +54,7 @@ g++ -o mobile main.cpp Mobile.cpp
 Mobile phone;
 
 // Set up basic information
-phone.setOwnerName("John Doe");
+phone.setOwnerName("Ahnaf Hossain");
 phone.setMobileNumber("01712345678");
 phone.setOsName("Android");
 
