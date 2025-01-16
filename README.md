@@ -97,6 +97,9 @@ public:
     ...
 };
 ```
+## Output
+
+![Image](https://github.com/user-attachments/assets/80baf17e-1179-4ac4-afeb-093a9d9b9eff)
 
 ## 🤝 Contributing
 
