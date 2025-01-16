@@ -107,7 +107,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## 👤 Author
 
-Your Name - [Your GitHub Profile](https://github.com/yourusername)
+MD Ahnaf Hossain - [ahnaf-hossain2]([https://github.com/yourusername](https://github.com/ahnaf-hossain2))
 
 ## 🙏 Acknowledgments
 
