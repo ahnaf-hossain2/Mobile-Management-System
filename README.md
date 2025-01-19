@@ -3,6 +3,10 @@
 A secure C++ implementation of a mobile phone management system with password protection and balance tracking capabilities.
 A Mobile Management System where the user sets up a phone, locks/unlocks it with a password, checks phone info, performs a recharge, and makes calls.
 
+## 🗒️ Diagram
+
+![Image](https://github.com/user-attachments/assets/2851e223-6d29-4fbf-af6f-effba82eea5d)
+
 ## 🚀 Features
 
 - **Secure Phone Management**
@@ -93,6 +97,9 @@ public:
     ...
 };
 ```
+## Output
+
+![Image](https://github.com/user-attachments/assets/80baf17e-1179-4ac4-afeb-093a9d9b9eff)
 
 ## 🤝 Contributing
 
