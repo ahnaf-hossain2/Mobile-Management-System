@@ -10,9 +10,9 @@ private:
     string os;
     double initialBalance;
     bool lockstatus;
-    int password;
+    string password;
 public:
-    Mobile (string owner, string number, string os, double initialBalance, int password)
+    Mobile (string owner, string number, string os, double initialBalance, string password)
     {
         // use setter methods to set the values of the private variables but it can be done using ( this-> )pointer also.
         setOwner(owner);
@@ -26,13 +26,13 @@ public:
     string getNumber() {return number;}
     string getOs() { return os; }
     double getInitialBalance(){ return initialBalance; }
-    int getPassword() { return password; }
+    string getPassword() { return password; }
 
     void setOwner(string owner) { this->owner = owner; }
     void setNumber(string number) { this->number = number; }
     void setOs(string os) { this->os = os; }
     void setInitialBalance(double initialBalance) { this->initialBalance = initialBalance; }
-    void setPassword(int password) { this->password = password; }
+    void setPassword(string password) { this->password = password; }
 
     bool getLockStatus()
     {
@@ -90,9 +90,9 @@ public:
 
 int main()
 {
-    string owner, number, os;
+    string owner, number, os, password, passwordInput;
     double initialBalance;
-    int password, passwordInput, amount, timeDuration, attemps = 3;
+    int amount, timeDuration, attemps = 3;
 
     cout << "===============================================" << endl;
     cout << "       Welcome to Mobile Management System     " << endl;
