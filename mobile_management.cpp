@@ -45,9 +45,9 @@ public:
 
     void showInfo()
     {
-        cout << "------------------------------------" << endl;
-        cout << "          [Phone Info]              " << endl;
-        cout << "------------------------------------" << endl;
+        cout << "|------------------------------------|" << endl;
+        cout << "          [Phone Info]               " << endl;
+        cout << "|------------------------------------|" << endl;
         cout << "Owner's Name    : " << getOwner() << endl;
         cout << "Phone Number    : " << getNumber() << endl;
         cout << "Phone OS        : " << getOs() << endl;
